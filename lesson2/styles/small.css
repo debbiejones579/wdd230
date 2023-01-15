@@ -1,0 +1,70 @@
+header {
+    background-color: rgb(10, 10, 10);
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-family: rubik;
+    border-radius: 15%;
+    text-align: center;
+    }
+.maingrid {
+    display:grid;
+   grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2rem;
+   
+    }  
+
+  img {
+    width: 100%;}
+
+   
+
+div {
+   
+    border-radius: 15px;
+    text-align: center;
+    }
+   
+ a :link, a:visited {
+         color:rgb(129, 184, 240);
+         padding: 14px 25px;
+        
+}
+
+.card1 {
+    background-color: black;
+   
+}
+.card2 {
+    background-color: black;
+}
+
+.card3 {
+    background-color: black;
+}
+
+h1 {
+    color: rgb(252, 249, 249); 
+    text-align: center;
+    
+}
+h2 {
+    color: rgb(241, 243, 245);
+    text-align: center;
+}
+
+p {
+    font-family: lato;
+    color:antiquewhite;
+    text-align: left;
+    
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+    border-radius: 15%;
+    text-align: center;
+    font-family: rubic, sans-serif;
+     color: white;
+    text-transform: uppercase;
+}
