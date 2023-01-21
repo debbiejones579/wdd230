@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+
+ img{
+     max-width: ;
+     max-height:auto ;
+     position: center;
+    
+}
+
+header {
+    background-color: #262d3d;
+    display: flex;
+    padding-top: .25rem;
+    padding: .5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9bbdb4;
+   }
+
+   header, footer {
+    text-align: center;}
+    
+  
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #d7d0d9 ;
+   
+ }
+ h1 {
+     font-size: 1.5rem;
+     margin: 0.15;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #262d3d;
+  }
+ 
+ h2 {
+     font-size: 1.0rem;
+     border-bottom: 1px solid #999;
+ }
+ nav {
+	background-color: #dfd6b3;
+	margin: 0 auto;
+	max-width: 780px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+nav ul {display: flex ;
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a {
+    flex: 1 1 auto;
+	padding: 2.75rem;
+	text-decoration: none;
+	font-size: .95rem;
+}
+ footer {
+     background-color:#262d3d;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #9bbdb4;
+     text-transform: uppercase;
+     padding: .25rem;
+ }
