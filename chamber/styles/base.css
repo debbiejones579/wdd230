@@ -1,19 +1,41 @@
 body {
     background-color: #d7d0d9;
     /*max-width: 75%;*/
-    margin: 0 auto;
+    margin: 1 auto;
 }
-
+nav button {
+    margin: 2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
 
 nav {
-	margin: 0 auto;
-	/*max-width: 760px;*/
-	background-color: tomato;
-}
+    background-color: beige; }
+	/*margin: 0 auto;
+	/*max-width: 760px;
+	background-color: #d7d0d9;*/
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+      display: block; 
+      padding: .8rem 2vw;
+      text-decoration: none;
+      color:aqua;
+      border-top: 1px solid rgba (0, 0, 0, 5);
+    }
+    
+
 .navigation {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+    
+    
 }
 .navigation li:first-child {
 	display: block;
@@ -24,20 +46,26 @@ nav {
 .navigation a {
 	display: block;
 	padding: 0.75rem;
-	text-align: left;
+	text-align: right;
 	text-decoration: none;
-	color: black;
+	color: rgb(12, 10, 10);
 	font-weight: 700;
 	
 }
+
+img{
+    max-width: 100px;
+    max-height: auto;
+}
 .navigation a.menu {
-/*This is where you can style your hamburger bars*/
+    
+/*style your hamburger bars*/
 }
 
-#menu::before {
+/*#menu::before {
 	content: "≡";
-	font-size: 2rem;
-}
+	font-size: 2rem;*/
+
 
 .navigation a:hover, navigation a:active {
 	color: white;
@@ -50,16 +78,22 @@ nav {
 }
 
 .responsive #menu::before {
-	content: "X";
+	content: /*"X"*/;
 }
 
-
+main {
+    list-style-type: none;
+}
 
 h1 {
     color: rgb(207, 180, 167);
 }
 
-
+.headings {
+    color: rgb(207, 180, 167);
+    padding: 30px;
+    
+}
 
 
 
