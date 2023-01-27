@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this is where you add a description">
     <meta name="author" content="Debra Kite Jones">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
     <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
     <title>Hooper City Chamber of Commerse</title>
 
 </head>
@@ -17,31 +19,31 @@
 
     <header>
         <h1>Hooper City Chanber of Commerse</h1>
-        <img src="images/logo.png" alt="Logo image">
+        <img src="images/logo2.png" alt="Logo image">
 
-        <section class="headings">
+        <div class="headings">
 
-   
-        <span id="currentdate"></span>
-    </section>
-       
-      <nav>
 
-           <ul class="navigation">  
+            <span id="currentdate"></span>
+        </div>
+
+        <nav>
+
+            <ul class="navigation">
                 <li><a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Government</a></li>
                 <li><a href="#">Departments</a></li>
-                <li><a href="#">Tomato Days</a></li> 
-              
-        </ul>
-    </nav>
+                <li><a href="#">Tomato Days</a></li>
+
+            </ul>
+        </nav>
     </header>
     <main>
-        
+
 
         <div>
-            <h2>call to action</h2>
+            <h2>hero</h2>
             <ul>
                 <li></li>
             </ul>
@@ -86,11 +88,22 @@
 
         <footer>
             <img src="images/logo.png" alt="Logo">
-            <ul>
-                <li>maps</li>
-                <li>Hooper City Chamber of Commerse</li>
-            </ul>
+           <div class="map">Google Map</div>
+           <div class=" contact">
+<h6> Contact Us</h6>
+<a href="mailto:email@chamber.com">Email@chamber.com</a>
+<a href="tel:801-445-4522">(801)445-4522</a>
 
+
+           </div>
+
+<div>
+    <a href="https://www.facebook.com"
+    target="_blank">Facebook</a>
+    <a href="https://www.twitter.com"
+    target="_blank">Twitter</a>
+
+</div>
             &copy; <span id="currentyear"></span>
             Debra Jones WDD 230
             <br>Last updated: <span id="thisupdate"></span><br>

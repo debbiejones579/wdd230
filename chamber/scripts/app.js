@@ -10,7 +10,7 @@ document.querySelector(
 
 document.querySelector("#currentyear").innerHTML = date.getFullYear();//
 
-//document.querySelector("#thisupdate").innerHTML = document.lastModified;
+document.querySelector("#thisupdate").innerHTML = document.lastModified;
 
 //This gets the ul list from html
 const mainnav = document.querySelector('.navigation');
