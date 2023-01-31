@@ -80,7 +80,17 @@ main {
 h1 {
     color: rgb(207, 180, 167);
 }
-
+.hero-ph {
+    margin: 10px, auto;
+    background-color: #eee;
+    border: 1px solid #333;
+    width: 960px;
+    height: 300px;
+   
+}
+.herodiv {
+     position: relative;   
+}
 .headings {
     color: rgb(207, 180, 167);
     padding: 30px;
