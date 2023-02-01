@@ -4,7 +4,7 @@
 
 
  img{
-     max-width: ;
+     max-width: 100%;
      max-height:auto ;
      position: center;
     
@@ -50,15 +50,21 @@ body {
 	max-width: 780px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
-nav ul {display: flex ;
+nav ul {
+    display: flex; 
+    /* flex-direction: space-between; */
 	list-style-type: none;
-	overflow: hidden;
+    justify-content: space-between;
+	padding: 0;
+    /* overflow: hidden; */
 }
 nav ul li a {
-    flex: 1 1 auto;
-	padding: 2.75rem;
+    display: block;
+     flex: 1 1 auto; 
+	padding: 1rem .5rem;
 	text-decoration: none;
 	font-size: .95rem;
+    white-space: nowrap;
 }
  footer {
      background-color:#262d3d;
