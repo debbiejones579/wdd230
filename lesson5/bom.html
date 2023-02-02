@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+ <!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,17 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="this is where you add a description">
    <meta name="author" content="your name">
-   <link rel="stylesheet" href="styles/normalize.css">
-    <link href="styles/small.css" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+     <link href="styles/bom.css" rel="stylesheet">
     <title>WDD 230</title><h1>📖 Book of Mormon - Top 10</h1>
-    <script src= "script.js" defer></script>
+    
 </head>
-   
+   <body>
+  
     <main>
+        <div class="input">
         <label for="favchap">Enter Book and Chapter: </label>
         <input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
-        <button type="submit">Add Chapter</button>
-        <ul id="list"></ul>
+        <button type="submit">Add Chapter</button></div>
+        <div class="listcontainer">
+        <ul id="list"></ul></div>
 
 
     </main>
+
+<script src="scripts/bom.js"></script>
+        </body>
+    </html>  
+
+   
+    
+      
+    
