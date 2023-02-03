@@ -82,14 +82,14 @@ h1 {
 }
 
 .herodiv {
-    margin: 10px, auto;
+    margin: 10px auto;
     position: relative; 
     border: 1px dashed blueviolet;
     width: 960px;
     height: 300px;
 }
 .hero-ph {
-    margin: 10px, auto;
+    margin: 10px auto;
     background-color: rgb(241, 163, 163);
     border: 1px solid #333;
     width: 98%;
@@ -104,7 +104,7 @@ h1 {
     background-color: aliceblue;
     border: 1px solid pink;
     padding: .5rem;
-    box-shadow: #333;
+   
 
 }
 .headings {
