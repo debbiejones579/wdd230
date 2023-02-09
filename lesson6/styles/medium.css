@@ -1,0 +1,103 @@
+@media only screen and (min-width: 40em) {
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li {
+		display: block;
+		/* change state in small view */
+		flex: 1 1 auto;
+	}
+
+	.navigation a {
+		text-align: center;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+main {
+	display:grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+	.herodiv {
+		
+		grid-column: 1/7;
+		grid-row: 1;
+	}
+.news-container {
+	grid-column: 1/7;
+	grid-row: 2;
+}
+	
+	.cta-container {
+		color: red;
+		/* grid-template-columns: 4/6; */
+
+	}
+	.join-container {
+		display: block;
+		grid-column: 1/7;
+		grid-row: 4;
+	}
+
+	.event-container {
+		color:blue;
+		grid-column: 1/5 ;
+		grid-row: 5;
+	}
+.ad-container {
+	grid-column: 1/7;
+	grid-row: 3;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+	.sponsor1 {
+		color: green;
+	}
+
+	.sponsor2 {
+		color: purple;
+	}
+
+.weathersummary {
+		grid-column: 5/7;
+		grid-row: 5;
+		background-color: aliceblue;
+		padding: .5rem
+	}
+
+
+	footer {
+		color: #262d3d;
+		display: grid;
+		grid-template-columns: 20% 1fr 1fr;
+		grid-template-rows: 1fr 1fr 20%;
+		align-items: center;
+		justify-items: center;
+	}
+	.footer-logo {
+		grid-column: 1;
+		grid-row:1/3;
+	}
+	.address {
+		grid-column: 2;
+		grid-row: 1/3;
+		text-align: left;
+	}
+	.contact {
+		grid-column: 3;
+		grid-row: 1/2;
+	}
+	.map {
+		grid-column: 3;
+		grid-row: 2/3;
+	}
+	.copyright {
+		grid-column: 1/4;
+		grid-row: 3/4;
+	}
+
+}
