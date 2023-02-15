@@ -1,0 +1,21 @@
+/* add a transition here to be used when image loads from placeholder */
+.loaded {
+
+
+
+}
+div {
+    padding: 4rem;
+}
+body {
+    text-align: center;
+}
+img[data-src] {
+    opacity: 50%;
+    filter: blur(3em);
+}
+img[data-src].loaded {
+    opacity: 100%;
+    filter: blur(0em);
+    transition-duration: 1.5s;
+}
