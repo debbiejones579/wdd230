@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is where you add a description">
+    <meta name="author" content="Debra Kite Jones">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+     
+    <script src="scripts/app.js" defer></script>
+    
+    <title>Hooper City Chamber of Commerce</title>
+
+</head>
+
+<body>
+    <div class="pancakeBanner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+
+    <header>
+        <div class="logocontainer">
+
+            <h1>Hooper City Chamber of Commerce</h1>
+            <img class="logo-img" src="images/logo2copy.webp" alt="Logo image">
+        </div>
+        <div class="headings">
+            <p id="currentdate"></p>
+            <div class="social-link">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="facebook social icon">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="images/linkedin.png" alt="Linked In social">
+                </a>
+
+            </div>
+        </div>
+
+        <nav>
+
+            <ul class="navigation">
+                <li><a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover Hooper</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Tomato Days</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+   
+    <main class="joinmain">
+        <div>
+            <h2> Join the Chamber of Commerce
+
+            </h2>
+            <p>Get the Scoop and help our city grow.</p>
+        </div>
+        <form class="joinformgrid" method="get"action="thankyou.html">
+            <fieldset class="contactbox"> 
+              <legend><h3>Contact Information</h3></legend>  
+              <div>
+                <label for="firstname">*First Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Jane" pattern="[a-zA-Z ]{4, }" required>
+                <label for="lastname">*Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Jones" pattern="[a-zA-Z ]{4, }" required>
+                <label for="titlename">Title:</label>
+                <input type="text" id="titlename" name="titlename" placeholder="Owner" pattern="[a-zA-Z ]{7, }">
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" placeholder="Jane@business.com"  required>
+                <label for="phone">*Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="000-000-0000" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                
+              </div>
+            </fieldset>
+            <fieldset class="businessbox"> <legend><h3>Business Information</h3></legend> 
+                <div>
+                <label for="businessname">*Business Name:</label>
+                <input type="text" id="businessname" name="businessname" placeholder="Janes Tires" required>
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" placeholder="www.janestires.com">
+                <label for="description">Description Business:</label>
+               <textarea id="description" name="description" rows="10"></textarea>
+            </div>
+            </fieldset>
+            <fieldset class="membershipbox">
+                <legend><h3>Membership Information</h3></legend> 
+                <div>
+                    <label for="nonprofit">Non-Profit $0</label> 
+                    <input type="radio" id="nonprofit" value="nonprofit"checked="checked"name="membership"> 
+                <p>
+                    Enjoy limited information without the cost of a membership
+                </p>
+                </div>
+                <div>
+                    <label for="bronze">Bronze $100</label> 
+                    <input type="radio" id="bronze" value="bronze"checked="checked"name="membership"> 
+                <p>
+                    Desription of Bronze
+                </p>
+                </div>
+                <div>
+                    <label for="silver">Silver $200</label> 
+                    <input type="radio" id="silver" value="silver"checked="checked"name="membership"> 
+                <p>
+                    Description of Silver
+                </p>
+                </div>
+                <div>
+                    <label for="gold">Gold $400</label> 
+                    <input type="radio" id="gold" value="nonprofit"checked="checked"name="membership"> 
+                <p>
+                   Description of Gold Package
+                </p>
+                </div>
+            </fieldset>
+            <label for="hiddendate"></label>
+            <input type="hidden" id="hiddendate" name="hiddendate" value="datetime-local"> 
+            <label for="join">Be Part of our Team!
+                
+            </label>
+            <input type="submit" name="join" value="Join Now">
+
+        </input>
+        </form>
+
+    </main>
+
+
+    <footer>
+        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo">
+        <p class="address">Hooper Chamber of Commerce<br>
+            Street address
+        </p>
+        <div class="map">
+            <h6>Google Map</h6>
+        </div>
+        <div class=" contact">
+            <h6> Contact Us</h6>
+            <a href="mailto:email@chamber.com">Email@chamber.com</a>
+            <br>
+            <a href="tel:801-445-4522">(801)445-4522</a>
+        </div>
+        <div class="copyright">
+            <p>
+                &copy; <span id="currentyear"></span>
+                Debra Jones WDD 230
+                Last updated: <span id="thisupdate"></span>
+            </p>
+        </div>
+    </footer>
+
+ 
+</body>
+
+</html>
