@@ -122,4 +122,12 @@ figure:hover::before {
     top: 40%;
     transform:rotate(-15deg);
 }
+/********* Join Page CSS **********/
+.joinformgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .membershipbox {
+    grid-column:1/3;
+    }
 }

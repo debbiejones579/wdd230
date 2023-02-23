@@ -32,4 +32,17 @@
 .sponsor3 {
     display:block;
 }
+ /***** Join Page CSS *****/
+ .joinformgrid {
+    max-width: 60%;
+    margin: 0 auto;
+    }
+    .membershipbox {
+    display: flex;
+    flex: 1 1 auto;
+    }
+    .membershipbox div {
+    display: flex;
+    flex-direction: column;
+    }
 }

@@ -14,6 +14,7 @@
     <link rel="icon" href="/favicon.ico">
      
     <script src="scripts/app.js" defer></script>
+    <script src="scripts/formsubmit.js" defer></script>
     
     <title>Hooper City Chamber of Commerce</title>
 
@@ -68,7 +69,7 @@
               <legend><h3>Contact Information</h3></legend>  
               <div>
                 <label for="firstname">*First Name:</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Jane" pattern="[a-zA-Z ]{4, }" required>
+                <input type="text" id="firstname" name="firstname" placeholder="Jane" pattern="[a-zA-Z ]{4, }" required autofocus >
                 <label for="lastname">*Last Name:</label>
                 <input type="text" id="lastname" name="lastname" placeholder="Jones" pattern="[a-zA-Z ]{4, }" required>
                 <label for="titlename">Title:</label>
@@ -121,12 +122,15 @@
                 </p>
                 </div>
             </fieldset>
-            <label for="hiddendate"></label>
-            <input type="hidden" id="hiddendate" name="hiddendate" value="datetime-local"> 
-            <label for="join">Be Part of our Team!
-                
-            </label>
-            <input type="submit" name="join" value="Join Now">
+            <div class="button-container">
+
+                <label for="hiddendate"></label>
+                <input type="hidden" id="hiddendate" name="hiddendate" value=""> 
+                <label for="join">Be Part of our Team!
+                    
+                </label>
+                <input type="submit" name="join" value="Join Now">
+            </div>
 
         </input>
         </form>

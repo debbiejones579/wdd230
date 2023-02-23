@@ -160,3 +160,43 @@ aside {
     padding: .5rem;
     background-color:goldenrod;
 }
+
+
+
+/* ********join page*********** */
+label {
+    display: block;
+    margin-top: 1rem;
+}
+input {
+    padding: .5rem;
+}
+legend {
+    text-align: center;
+}
+textarea#description {
+    width: 90%;
+}
+input:required {
+    border-left: 5px solid red;
+}
+input:required:valid {
+    border-left: 5px solid green;
+}
+input[type="submit"] { /* style for button */
+    text-align: center;
+    background-color: goldenrod;
+    border: none;
+    padding: .8rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.button-container {
+    text-align:center;
+}
+.button-container label {
+    font-size: 2rem;
+}
+    
+   
