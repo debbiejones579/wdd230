@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is where you add a description">
+    <meta name="author" content="Debra Kite Jones">
+ <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>Hooper City Chamber of Commerce</title>
+
+</head>
+
+<body>
+    <div class="pancakeBanner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+
+    <header>
+        <div class="logocontainer">
+
+            <h1>Hooper City Chamber of Commerce</h1>
+            <img class="logo-img" src="images/logo2copy.webp" alt="Logo image">
+        </div>
+        <div class="headings">
+            <p id="currentdate"></p>
+            <div class="social-link">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="facebook social icon">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="images/linkedin.png" alt="Linked In social">
+                </a>
+
+            </div>
+        </div>
+
+        <nav>
+
+            <ul class="navigation">
+                <li><a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover Hooper</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Tomato Days</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="mainGrid">
+
+
+        <div class="herodiv">
+            <h2>Come enjoy Hooper, Ut!</h2>
+            <!-- <img class="hero-img" src="images/saltflat.jpg" alt="salt flat sunset"> -->
+            <picture>
+                <source srcset="images/Large-980px-wdd230-org.jpg" media="(min-width: 980px)">
+                <source srcset="images/medium600px-wdd230-org.jpg" media="(min-width: 600px)">
+                <img src="images/small250px-wdd230-org.jpg" alt="people wasting their time">
+            </picture>
+            <div class="cta-container">
+                <h3>Call to Action</h3>
+                <button>Party Now</button>
+            </div>
+        </div>
+        <div class="event-container">
+            <h2>Events</h2>
+            <ul></ul>
+        </div>
+        <div class="weathersummary">
+            <h3>Weather Summary</h3>
+            <p>
+                Current Temp: <span id="currenttemp"> </span><br>
+                Tempurature: <span id="temp">32</span>F<br>
+                Wind Chill: <span id="windchill"></span><br>
+                Humidity: <span id="humidity"></span><br>
+                Wind Speed: <span id="windspeed">5</span>mph<br>
+            </p>
+        </div>
+        <div class="news-container">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla eos, labore molestias sed cum placeat quaerat omnis corporis eum! Nam ex odit tempore veniam fugiat quos numquam esse provident!</p>
+        </div>
+        <div class="ad-container">
+
+            <div class="sponsor1">
+                <h2>Granny's Pantry</h2>
+                <ul></ul>
+            </div>
+
+
+            <div class="sponsor2">
+                <h2>Rentals</h2>
+                <ul></ul>
+            </div>
+            <div class="sponsor3">
+                <h2>Tours</h2>
+                <ul></ul>
+            </div>
+        </div>
+        <div class="join-container">
+            <h2>join</h2>
+            <ul></ul>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo">
+        <p class="address">Hooper Chamber of Commerce<br>
+            Street address
+        </p>
+        <div class="map"><h6>Google Map</h6></div>
+        <div class=" contact">
+            <h6> Contact Us</h6>
+            <a href="mailto:email@chamber.com">Email@chamber.com</a>
+            <br>
+            <a href="tel:801-445-4522">(801)445-4522</a>
+        </div>
+        <div class="copyright">
+            <p>
+            &copy; <span id="currentyear"></span>
+            Debra Jones WDD 230
+            Last updated: <span id="thisupdate"></span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

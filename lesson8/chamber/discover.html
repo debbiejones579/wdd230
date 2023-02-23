@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is where you add a description">
+    <meta name="author" content="Debra Kite Jones">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+     
+    <script src="scripts/app.js" defer></script>
+    <script src="scripts/lazyload.js" defer></script>
+    <script src="scripts/visitlog.js" defer></script>
+    <title>Hooper City Chamber of Commerce</title>
+
+</head>
+
+<body>
+    <div class="pancakeBanner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+
+    <header>
+        <div class="logocontainer">
+
+            <h1>Hooper City Chamber of Commerce</h1>
+            <img class="logo-img" src="images/logo2copy.webp" alt="Logo image">
+        </div>
+        <div class="headings">
+            <p id="currentdate"></p>
+            <div class="social-link">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="facebook social icon">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="images/linkedin.png" alt="Linked In social">
+                </a>
+
+            </div>
+        </div>
+
+        <nav>
+
+            <ul class="navigation">
+                <li><a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover Hooper</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Tomato Days</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        Your Last Visit was <span class="visitLog"></span> days ago - Welcome back!
+    </aside>
+    <main class="discoverGrid">
+        <div class="imgGallery">
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/antelope-drive.jpg" alt="antelope-island"
+                    class="discoverImg">
+                <figcaption>
+                    Hooper is a city in Weber County, Utah, United States, first called Muskrat Springs and later
+                    Hooperville for Captain William Henry Hooper,[3] an early Utah delegate to Congress. The population
+                    was 9,087 at the 2020 census, up from the 2010 figure of 6,932. Prior to the city's incorporation on
+                    November 30, 2000, Hooper was an unincorporated census-designated place (CDP).
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/saltair.jpg" alt="Salt Air concert venue"
+                    class="discoverImg">
+                    <figcaption>
+                Salt Air is a venue that was built in the early 1900s for people to gather on the great salt lake. At
+                one time there was a fariss wheel and merry go round.. The intererier is gorgeous and has been kept
+                prestine for iths era. The pillars surrounding the front door are a tease of what there is to stee
+                inside the goergeous venue. Beware, this place has been on all the finding ghost shows. There is proof
+                that there are others residing at Salt Air, these people have been dead for 100 years.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/rodeo.jpg" alt="Summer Rodeo" class="discoverImg">
+                <figcaption>
+                    In the summer, Hooper has some of the best Rodeos around Utah. The rodeos have a small town feel,
+                    but with big names that come to ride in the beautiful outdoor arena. The seating is amazing, all
+                    seats are no more than 10 feet away from the horses and bulls. It is a unique experience for sure.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/sl-hiking.jpg" alt="hiking on the salt flats"
+                    class="discoverImg">
+                <figcaption>
+                    According to the United States Census Bureau, the CDP has a total area of 11.7 square miles (30.3
+                    km2), of which 11.5 square miles (29.9 km2) is land and 0.2 square mile (0.4 km2) (1.45%) is water.
+
+                    Fremont Island in the Great Salt Lake is included in this city's boundary. On March 30, 2007, Glenn
+                    Barrow became the first Hooper mayor to visit the island in the city's brief history.[5]
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/hide_race_picture.jpg" alt="crap"
+                    class="discoverImg">
+                <figcaption>
+                    Hooper was settled in 1854, and become a township in 1997 (about 15 years after a failed vote to
+                    incorporate). Over the next several years "it became evident that the township board could make
+                    plans and suggestions, but had no official power," so a vote to incorporate passed on May 2, 2000,
+                    with the city being officially incorporated on November 30, 2000.[4]
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/hunting.jpg" alt="crap" class="discoverImg">
+                <figcaption>
+                    Antelope Island is one mile south west. It has some of the best hunting in the state of Utah.
+                    All hunts are guided by professional hunters that know the island and where to have the best success
+                    in hunting.
+                </figcaption>
+            </figure>
+        </div>
+        <div class="cityData">
+            <h2>This is our City Data</h2>
+            <p>As of the census[2] of 2000, there were 3,926 people, 1,150 households, and 1,013 families residing in
+                the CDP. The population density was 340.2 people per square mile (131.4/km2). There were 1,177 housing
+                units at an average density of 102.0 per square mile (39.4/km2). The racial makeup of the CDP was 97.71%
+                White, 0.15% African American, 0.28% Native American, 0.51% Asian, 0.10% Pacific Islander, 0.64% from
+                other races, and 0.61% from two or more races. Hispanic or Latino of any race were 2.06% of the
+                population.
+
+                There were 1,150 households, out of which 46.7% had children under the age of 18 living with them, 80.2%
+                were married couples living together, 4.7% had a female householder with no husband present, and 11.9%
+                were non-families. 10.3% of all households were made up of individuals, and 4.2% had someone living
+                alone who was 65 years of age or older. The average household size was 3.41 and the average family size
+                was 3.68.
+
+                In the CDP, the population was spread out, with 33.3% under the age of 18, 10.4% from 18 to 24, 25.3%
+                from 25 to 44, 23.1% from 45 to 64, and 7.8% who were 65 years of age or older. The median age was 31
+                years. For every 100 females, there were 104.2 males. For every 100 females age 18 and over, there were
+                106.9 males.
+
+                The median income for a household in the CDP was $62,043, and the median income for a family was
+                $65,682. Males had a median income of $40,633 versus $29,138 for females. The per capita income for the
+                CDP was $20,245. About 0.6% of families and 0.9% of the population were below the poverty line,
+                including 1.6% of those under age 18 and 1.5% of those age 65 or over.
+            </p>
+            <h3>Maybe a story about the town?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, inventore quidem minus vitae dolorum ex
+                eum dolores ullam itaque quos, quod amet aperiam mollitia iure non quo, libero ipsam ducimus.</p>
+        </div>
+    </main>
+
+
+    <footer>
+        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo">
+        <p class="address">Hooper Chamber of Commerce<br>
+            Street address
+        </p>
+        <div class="map">
+            <h6>Google Map</h6>
+        </div>
+        <div class=" contact">
+            <h6> Contact Us</h6>
+            <a href="mailto:email@chamber.com">Email@chamber.com</a>
+            <br>
+            <a href="tel:801-445-4522">(801)445-4522</a>
+        </div>
+        <div class="copyright">
+            <p>
+                &copy; <span id="currentyear"></span>
+                Debra Jones WDD 230
+                Last updated: <span id="thisupdate"></span>
+            </p>
+        </div>
+    </footer>
+
+ 
+</body>
+
+</html>
