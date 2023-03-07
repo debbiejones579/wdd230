@@ -1,0 +1,189 @@
+{
+    "businesses": [
+        {
+            "name": "Dallas Green",
+            "address": [
+                {
+                    "numbers": "3752 S",
+                    "street": "4700 W",
+                    "city": "Hooper",
+                    "state": "Ut",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "www.dallasgreen.com",
+            "phone": "801-731-0331",
+            "image": "dallasgreen.webp",
+            "logo": "",
+            "membership": "gold",
+            "hours": "Winter Hours 9:00 am to 6:00 am",
+            "description": ["Home Improvement store for your home and farm. Located in West Haven and Clearfield, Family owned and Operated since 1954"]
+        },
+        {
+            "name": "Precision Structures",
+            "address": [
+                {
+                    "numbers": "5333 S.",
+                    "street": "5500 W.",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "precisionstructures.net",
+            "phone": "801-985-3000",
+            "image": "precisionstructure.jpg",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": ["Precision Structures Inc. is a truss manufacturer in Hooper, Utah committed to working hard in the hopes of designing and building exactly what each  homeowner and/or contractor has envisioned for themselves and their home."
+            ]
+        },
+        {
+            "name": "Dance Image Studio",
+            "address": [
+                {
+                    "numbers": "801-721-1596",
+                    "street": "5495 S",
+                    "city": "5900 W",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "www.danceimagestudios",
+            "phone": "801-721-1596",
+            "image": "danceimage.webp",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": ["Dance Image Studios is a dance school in Hooper, UT that teaches students from age 2 to adult. Our experienced dance instructors will teach you the joy and artistry of dance. Because we focus on caring for our students and creating a sense of self esteem, we have become the favorite dance school of many families in the surrounding areas. Come and join the tradition and fun."
+            ]
+        },
+        {
+            "name": "Hooper Irrigation",
+            "address": [
+                {
+                    "numbers": "5375 S",
+                    "street": "5500 W",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "hooperirrigationco.com",
+            "phone": "800-257-8777",
+            "image": "hooperirrigation.png",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": [
+                " "
+            ]
+        },
+        {
+            "name": "Hooper Post Office",
+            "address": [
+                {
+                    "numbers": "5948 W",
+                    "street": "5500 S",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "www.usps.com",
+            "phone": "800-275-8777",
+            "image": "usps.jpeg",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": [
+                " "
+            ]
+        },
+        {
+            "name": "High Country Escavating",
+            "address": [
+                {
+                    "numbers": "5683 West",
+                    "street": "5500 South",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "www.facebook.com/highcountryexcavation/",
+            "phone": "801-791-7905",
+            "image": "excavation.png",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": [
+                "We specialize in Septic System Designs, Installations, and Repairs. We also Install and Repair Water. "
+            ]
+        },
+        {
+            "name": "Kays Kiddy Kare",
+            "address": [
+                {
+                    "numbers": "5227 W",
+                    "street": "4000 S,",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "www.facebook.com/KaysKiddieCare",
+            "phone": "(801) 732-8202",
+            "image": "kayskittycare.jpg",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": [
+                " "
+            ]
+        },
+        {
+            "name": "Business 2 Business Services Inc",
+            "address": [
+                {
+                    "numbers": "5591 S",
+                    "street": "4600 W",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "https://b2btax.net/",
+            "phone": "801-985-1980",
+            "image": "business2businessservices.png",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": ["We work hard to help you live easier. Tax expertise you can count on"
+                
+            ]
+        },
+        {
+            "name": "Pro-Link Fence",
+            "address": [
+                {
+                    "numbers": "PO Box",
+                    "street": "310",
+                    "city": "Hooper",
+                    "state": "Utah",
+                    "zipcode": "84315"
+                }
+            ],
+            "website": "www.prolinkfence.com",
+            "phone": "801-985-7000",
+            "image": "lawnlogo.webp",
+            "logo": "",
+            "membership": "",
+            "hours": "",
+            "description": [
+                "When it comes to our properties, fencing can serve a number of valuable purposes. Pro-Link fence Company based in Hooper, UT has been providing the highest quality fencing for both residential and commercial property owners in Northern Utah for over 40 years. Whatever the purpose of your fencing is, we have numerous options available to help you protect your property!  "
+            ]
+        }
+    ]
+}

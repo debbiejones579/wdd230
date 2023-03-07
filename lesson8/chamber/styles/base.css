@@ -177,7 +177,7 @@ legend {
 textarea#description {
     width: 90%;
 }
-input:required {
+input:required, input[pattern="[a-zA-Z]{7, }"]:invalid {
     border-left: 5px solid red;
 }
 input:required:valid {
