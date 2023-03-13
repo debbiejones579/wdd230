@@ -12,7 +12,7 @@ body {
 .logocontainer {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: left;
 }
 
 nav {
@@ -99,7 +99,19 @@ main div {
     object-fit: cover;
     object-position: center;
 }
-
+.event-container h2 {
+    color:#262d3d;
+    text-align: center;
+    
+}
+.event-container h3{
+    color:#4e4bf8;
+    text-align: center;
+}
+.event-container p {
+    color: black;
+    text-align: center;
+}
 .cta-overlay button {
     padding: 1rem 2rem;
     background-color: #ebae32;
@@ -117,7 +129,20 @@ main div {
 
 .join-container {
     display: none;
+    background-color: #ebae32;
+   }
+
+.joinBtn { 
+    padding: 1rem 2rem;
+    background-color : red;
+    font-size: 1.5rem;
+    color:aliceblue;
+    border: none;
+    position:relative;
+  
+    
 }
+
 .sponsor3 {
     display:none;
 }
