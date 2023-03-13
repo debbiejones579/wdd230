@@ -12,7 +12,8 @@ body {
 .logocontainer {
     display: flex;
     flex-direction: row-reverse;
-    align-items: left;
+    justify-content: center;
+
 }
 
 nav {
@@ -282,3 +283,16 @@ input[type="submit"] { /* style for button */
     text-align: center;
     color:#262d3d
 }
+ /*************** contact Page ************/
+ .contactinfo li{
+    list-style: none;
+ }
+ .chambercard a {
+    display:block;
+ }
+ .contactinfo {
+    text-align: center;
+ }
+ textarea[id="comments"] {
+    width: 80%;
+ }

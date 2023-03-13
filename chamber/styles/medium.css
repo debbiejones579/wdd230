@@ -183,4 +183,28 @@ style  the insdie of the business card, probably a flex or whatever you want it 
 		display: block;
 	}
 
+	/************** Style for Contact Us Page **********/
+	.contact-main-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-template-rows: auto;
+		gap: 1.5rem;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	.contactinfo {
+		grid-column: 1/3;
+	}
+	.mapcontainer {
+		grid-column: 1/2;
+	}
+	.contactform {
+		grid-column: 1/2;
+	}
+	.chambercontacts {
+		grid-column: 2/3;
+		grid-row: 2/4;
+		display: flex;
+		flex-direction: column;
+	}
 }
