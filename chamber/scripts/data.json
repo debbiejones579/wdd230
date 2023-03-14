@@ -34,7 +34,7 @@
             "phone": "801-985-3000",
             "image": "precisionstructure.jpg",
             "logo": "",
-            "membership": "",
+            "membership": "bronze",
             "hours": "",
             "description": ["Precision Structures Inc. is a truss manufacturer in Hooper, Utah committed to working hard in the hopes of designing and building exactly what each  homeowner and/or contractor has envisioned for themselves and their home."
             ]
@@ -54,7 +54,7 @@
             "phone": "801-721-1596",
             "image": "danceimage.webp",
             "logo": "",
-            "membership": "",
+            "membership": "gold",
             "hours": "",
             "description": ["Dance Image Studios is a dance school in Hooper, UT that teaches students from age 2 to adult. Our experienced dance instructors will teach you the joy and artistry of dance. Because we focus on caring for our students and creating a sense of self esteem, we have become the favorite dance school of many families in the surrounding areas. Come and join the tradition and fun."
             ]
@@ -74,7 +74,7 @@
             "phone": "800-257-8777",
             "image": "hooperirrigation.png",
             "logo": "",
-            "membership": "",
+            "membership": "gold",
             "hours": "",
             "description": [
                 " "
@@ -95,7 +95,7 @@
             "phone": "800-275-8777",
             "image": "usps.jpeg",
             "logo": "",
-            "membership": "",
+            "membership": "non-profit",
             "hours": "",
             "description": [
                 " "
@@ -116,7 +116,7 @@
             "phone": "801-791-7905",
             "image": "excavation.png",
             "logo": "",
-            "membership": "",
+            "membership": "bronze",
             "hours": "",
             "description": [
                 "We specialize in Septic System Designs, Installations, and Repairs. We also Install and Repair Water. "
@@ -137,7 +137,7 @@
             "phone": "(801) 732-8202",
             "image": "kayskittycare.jpg",
             "logo": "",
-            "membership": "",
+            "membership": "bronze",
             "hours": "",
             "description": [
                 " "
@@ -158,7 +158,7 @@
             "phone": "801-985-1980",
             "image": "business2businessservices.png",
             "logo": "",
-            "membership": "",
+            "membership": "non-profit",
             "hours": "",
             "description": ["We work hard to help you live easier. Tax expertise you can count on"
                 
@@ -179,7 +179,7 @@
             "phone": "801-985-7000",
             "image": "lawnlogo.webp",
             "logo": "",
-            "membership": "",
+            "membership": "silver",
             "hours": "",
             "description": [
                 "When it comes to our properties, fencing can serve a number of valuable purposes. Pro-Link fence Company based in Hooper, UT has been providing the highest quality fencing for both residential and commercial property owners in Northern Utah for over 40 years. Whatever the purpose of your fencing is, we have numerous options available to help you protect your property!  "

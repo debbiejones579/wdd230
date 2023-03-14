@@ -1,3 +1,11 @@
+p, input, a {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia; 
+}
+
+
 body {
     background-color: #f1ebe9;
      margin: 0;
@@ -57,7 +65,7 @@ img {
     color: #262d3d;
 }
 
-navigation a:active::before {
+.navigation a:active::before {
     content:'🍅';
    
 }
@@ -73,7 +81,7 @@ h1 {
 }
 
 main div {
-    border: 2px solid white;
+   /* border: 2px solid white;*/
     margin: .5rem 0;
     padding: .5rem;
 }
@@ -131,18 +139,18 @@ main div {
 .join-container {
     display: none;
     background-color: #ebae32;
+    text-align: center;
+    padding: 2rem;
    }
 
 .joinBtn { 
     padding: 1rem 2rem;
-    background-color : red;
-    font-size: 1.5rem;
-    color:aliceblue;
-    border: none;
-    position:relative;
-  
-    
-}
+    background-color : #262d3d;
+    font-size: 1.2rem;
+    color:white;
+   text-decoration: none;
+  }
+ 
 
 .sponsor3 {
     display:none;
@@ -231,7 +239,6 @@ input[type="submit"] { /* style for button */
     background-color: goldenrod;
     border: none;
     padding: .8rem;
-    color: white;
     font-size: 1.5rem;
     margin-top: 1rem;
 }
@@ -284,15 +291,47 @@ input[type="submit"] { /* style for button */
     color:#262d3d
 }
  /*************** contact Page ************/
+ .contact-main-grid div {
+    border: none;
+ }
  .contactinfo li{
     list-style: none;
+  
  }
  .chambercard a {
     display:block;
- }
+    color: black;
+    }
+
+    .chambercard img {
+        size: 2rem;
+        max-width: 200px;
+        padding-top: 4px;
+        padding-bottom: 3px;}
+
  .contactinfo {
     text-align: center;
  }
  textarea[id="comments"] {
     width: 80%;
+ }
+ .contactform {
+    background-color: #262d3d;
+}
+ .contactbox h2 {
+    color:white;
+    text-align: center;
+   /* position:absolute;*/
+   }
+   .contactbox label{
+    color:white;
+   }
+
+ 
+    .chambercard h2{
+    size: 2rem;
+    color: white;
+ }
+ .mapcontainer {
+position: relative;
  }

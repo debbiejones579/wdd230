@@ -8,6 +8,10 @@
     grid-column:2/3;
     grid-row: 1/3;
 }
+.herodiv img {
+    height: 100%;
+    object-fit: cover;
+}
 .event-container {
     grid-column:1/2 ;
     grid-row:1 ;
@@ -29,7 +33,12 @@
     grid-column:1;
     grid-row: 3;
 }
-.sponsor3 {
+.join-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ad-container figure:nth-child(3){
     display:block;
 }
  /***** Join Page CSS *****/
@@ -49,4 +58,11 @@
      
             grid-template-columns: 1fr 1fr 1fr;
     }
+    	/************** Style for Contact Us Page **********/
+	.contact-main-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+		gap: 1.5rem;
+	}
 }
