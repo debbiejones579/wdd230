@@ -13,7 +13,7 @@ function preload(img) {
 
 //these are measurements that tell us where the "intersection" is
 const imgoptions= {
-    //root: null, //would be whatever the size of the viewport is (viewport is definied from which type of device is being used)
+   
     threshold: .5,//This is how much of the image is within the page-view range. if It's at 1, then 100% of the image has to on the page 
     rootMargin: "0px 0px 10px 0px" 
 }
@@ -31,7 +31,7 @@ const imgObserver= new IntersectionObserver((entries, imgObserver) => {
         }
     });
 }, imgoptions);
-//watch our images and and then run our observe function when it sees them
+
 images.forEach(src => {
     imgObserver.observe(src);
 });

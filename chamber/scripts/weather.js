@@ -1,7 +1,5 @@
 const key="150cd72e5595793ee58a48d53d68f9f7";
-//const lon="-84.9341";
-//const lat="34.3687";
-//const key="f9da74cc7d2649956737f45278b83ba7";
+
 const lon="-112.102997";
 const lat="41.163891";
 const unit="imperial";

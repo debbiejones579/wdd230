@@ -1,92 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="this is where you add a description" >
+    <meta name="author" content="Debra Kite Jones" >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link href="styles/base.css" rel="stylesheet" >
+    <link href="styles/medium.css" rel="stylesheet" >
+    <link href="styles/large.css" rel="stylesheet" >
+    <link rel="icon" href="/favicon.ico" >
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="this is where you add a description">
-    <meta name="author" content="Debra Kite Jones">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link href="styles/base.css" rel="stylesheet">
-    <link href="styles/medium.css" rel="stylesheet">
-    <link href="styles/large.css" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico">
-     
-    <script src="scripts/app.js" defer></script>
-    
-    <title>Bountiful Foods</title>
+    <title>The Prickly Pair</title>
+  </head>
 
-</head>
-
-<body>
-    <div class="pancakeBanner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+  <body>
+    <div class="pancakeBanner">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
 
     <header>
-        <div class="logocontainer">
-
-            <h1>Bountiful Foods</h1>
-            <img class="logo-img" src="images/fruitlogo.png" alt="Logo image">
-        </div>
-        <div class="headings">
-            <p id="currentdate"></p>
-        </div>  
-
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover Hooper</a></li>
-                <li><a href="directory.html">Directory</a></li>
-               
-
-            </ul>
-        </nav>
+      <div class="logocontainer">
+        <h1>The Prickly Pair</h1>
+        <img class="logo-img" src="images/logo-600.jpg" alt="Logo image" >
+      </div>
+      <div class="headings">
+        <p id="currentdate"></p>
+       
+  <nav>
+        <ul class="navigation">
+          <li>
+            <a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Join</a></li>
+          <li><a href="about.html">Discover Hooper</a></li>
+     </ul>
+      </nav>
     </header>
-   
-<main class="template-main-grid">
+    <main class="mainGrid">
+      <div class="herodiv">
+        <div class="cta-overlay">
+          <h2>Fresh Tropical Fruits Paired to make amzing drinks</h2>
+          <button>Special Order</button>
+        </div>
+       
+        <picture>
+          <source srcset="images/988homelarge.jpg" media="(min-width: 980px)" >
+          <source
+            srcset="images/mediumhome600.jpg"
+            media="(min-width: 600px)">
+          <img src="images/heart.png" alt="Summer River on Salt Flats" >
+        </picture>
+      </div>
+      <div class="event-container">
+        <h2>Grand Opening</h2>
+        <h3>Saturday, April 8th, Hooper Park</h3>
+        <p>
+         
+        </p>
+        <img src="images/heart 2.png" alt="Easter Egg Hunt" >
 
-</main>
+        <ul></ul>
+      </div>
+      <div class="weathersummary">
+        <h3>Todays Special</h3>
+        <p>
+          <span id="weathericon"></span>
 
+          <span id="temp"></span><br >
+          <span id="conditions"></span><br >
+          Wind Chill: <span id="windchill"></span><br >
+          <span id="windspeed"></span><br >
+        </p>
+      </div>
+      <div class="news-container">
+        <h2>Himalayan Flavor is all about family and food</h2>
+        <img src="images/newsrelease.jpg" alt="Himalayan Chef" >
+       
+      </div>
+      <div class="ad-container"></div>
+      <div class="join-container">
+        <img src="images/trading-post.jpg" alt="trading store" >
+
+        <h2>The Prickly Paired</h2>
+        <a href="join.html" class="joinBtn">Join Now</a>
+      </div>
+    </main>
 
     <footer>
-        <div class="social-link">
+      <div class="footerContainer">
+        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo" >
+        <p class="address">
+          Hooper Chamber of Commerce<br >
+          5375 South 5100 West<br >
+          Hooper, Utah 84315<br >
+          <div class="social-link">
             <a href="https://www.facebook.com" target="_blank">
-                <img src="images/facebook2.png" alt="facebook social icon">
+              <img src="images/facebook2.png" alt="facebook social icon" >
             </a>
             <a href="https://www.linkedin.com" target="_blank">
-                <img src="images/twitter.png" alt="Linked In social">
+              <img src="images/twitter.png" alt="Linked In social" >
             </a>
             <a href="https://www.instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="Linked In social">
+              <img src="images/instagram.png" alt="Linked In social" >
             </a>
-
-        </div>
-   
-        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo">
-        <p class="address">Hooper Chamber of Commerce<br>
-            Street address
+          </div>
         </p>
-        <div class="map">
-            <h6>Google Map</h6>
-        </div>
-        <div class=" contact">
-            <h6> Contact Us</h6>
-            <a href="mailto:email@chamber.com">Email@chamber.com</a>
-            <br>
-            <a href="tel:801-445-4522">(801)445-4522</a>
-        </div>
-        <div class="copyright">
-            <p>
-                &copy; <span id="currentyear"></span>
-                Debra Jones WDD 230
-                Last updated: <span id="thisupdate"></span>
-            </p>
-        </div>
-    </footer>
-
- 
-</body>
-
-</html>
+       

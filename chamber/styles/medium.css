@@ -109,8 +109,8 @@
 	/************* Style for Discover Gallery Page ***********/
 
 	figure {
-		/* max-width: 450px; */
-		margin: 2rem auto;
+		max-width: 450px; 
+		margin: 3rem auto;
 	}
 
 	.discoverGrid {
@@ -118,7 +118,7 @@
 	}
 
 	.imgGallery {
-		min-width: 40%;
+		min-width: 45%;
 	}
 
 	figure:hover {
@@ -150,10 +150,7 @@
 	}
 
 	/*************** Style for Business Directory **********/
-	/* use a display flex to display business cards similar to the picture cards we made on the doscver.html page
-MAY need to be adjusted in the large view as well. 
-style  the insdie of the business card, probably a flex or whatever you want it to look like
-*/
+
 	.bizcardgrid figure {
 		
 		background-color: rgb(238, 214, 203);

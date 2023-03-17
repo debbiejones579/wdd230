@@ -6,19 +6,16 @@ fetch(requestData)
         return response.json();
     })
     .then(function (jsObject) {
-        //console.log(jsObject)
-        // make a list of all merchants/businesses
+     
         const merchants = jsObject["businesses"];
 
-        //now that we have a list, we can display the information FOR EACH business
+      
 
         merchants.forEach(business => {
-            //for each business in the list, let's make a business card
-
-            //first create the html items that are needed
+          
             let card = document.createElement('figure');
             let h3 = document.createElement('h3');
-            //<p> for the address, img for image, figcaption for business description
+          
             let p = document.createElement("p");
 
             let img = document.createElement("img");

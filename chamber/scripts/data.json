@@ -95,7 +95,7 @@
             "phone": "800-275-8777",
             "image": "usps.jpeg",
             "logo": "",
-            "membership": "non-profit",
+            "membership": "gold",
             "hours": "",
             "description": [
                 " "
@@ -137,7 +137,7 @@
             "phone": "(801) 732-8202",
             "image": "kayskittycare.jpg",
             "logo": "",
-            "membership": "bronze",
+            "membership": "gold",
             "hours": "",
             "description": [
                 " "
@@ -154,11 +154,11 @@
                     "zipcode": "84315"
                 }
             ],
-            "website": "https://b2btax.net/",
+            "website": "www.b2btax.net/",
             "phone": "801-985-1980",
             "image": "business2businessservices.png",
             "logo": "",
-            "membership": "non-profit",
+            "membership": "silver",
             "hours": "",
             "description": ["We work hard to help you live easier. Tax expertise you can count on"
                 

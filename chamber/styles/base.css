@@ -1,337 +1,358 @@
-p, input, a {
-    font-family: 'Arial Narrow Bold', sans-serif;
+p,
+input,
+a {
+  font-family: "Arial Narrow Bold", sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia; 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia;
 }
-
 
 body {
-    background-color: #f1ebe9;
-     margin: 0;
+  background-color: #f1ebe9;
+  margin: 0;
 }
-
+/* -----------------header------------------- */
 .pancakeBanner {
-    background-color: #ebae32;
-    padding: 0.5rem;
-    text-align: center;
+  background-color: #ebae32;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .logocontainer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
 }
 
 nav {
- background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .navigation {
-    list-style: none;
-    text-align: center;
-    margin: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
 }
 
-
 .navigation li:first-child {
-    display: block;
+  display: block;
 }
 
 .navigation li {
-    display: none;
+  display: none;
 }
 
 .navigation a {
-    display: block;
-    padding: 0.75rem;
-    text-align: right;
-    text-decoration: none;
-    color: #262d3d;
-    font-weight: 700;
+  display: block;
+  padding: 0.75rem;
+  text-align: right;
+  text-decoration: none;
+  color: #262d3d;
+  font-weight: 700;
 }
 
-
-.logo-img, .footer-logo {
-    width: 100px;
-    height: 100px;
+.logo-img,
+.footer-logo {
+  width: 100px;
+  height: 100px;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .navigation a.menu {
-    color: #262d3d;
+  color: #262d3d;
 }
 
 .navigation a:active::before {
-    content:'🍅';
-   
+  content: "🍅";
 }
 .navigation a:hover::before {
-    content:'🍅';
+  content: "🍅";
 }
 .responsive li {
-    display: block;
+  display: block;
 }
 h1 {
-    color: rgb(207, 180, 167);
-    text-align: center;
+  color: rgb(207, 180, 167);
+  text-align: center;
 }
-
+/* ----------------------------------home------------------------ */
 main div {
-   /* border: 2px solid white;*/
-    margin: .5rem 0;
-    padding: .5rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
 }
 .herodiv {
-    position: relative;
+  position: relative;
 }
 .herodiv h2 {
-    color: #ebae32;
-    font-size: 3rem;
-
+  color: black;
+  font-size: 2.5rem;
 }
 .cta-overlay {
-        border: none;
-        position: absolute;
-        left: 0;
-        top: 0; 
-        text-align: center;
-        width: 100%;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
 }
 
 .hero-img {
-    height: 400px;
-    /* This makes the image fit inside a specfiic window and hide the rest of the picture */
-    object-fit: cover;
-    object-position: center;
+  height: 400px;
+ 
+  object-fit: cover;
+  object-position: center;
 }
 .event-container h2 {
-    color:#262d3d;
-    text-align: center;
-    
+  color: #262d3d;
+  text-align: center;
 }
-.event-container h3{
-    color:#4e4bf8;
-    text-align: center;
+.event-container h3 {
+  color: #4e4bf8;
+  text-align: center;
 }
 .event-container p {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 .cta-overlay button {
-    padding: 1rem 2rem;
-    background-color: #ebae32;
-    font-size: 1.5rem;
-    border: none;
+  padding: 1rem 2rem;
+  background-color: #ebae32;
+  font-size: 1.5rem;
+  border: none;
+}
+.imgGallery {
+  max-height: 100%;
+  max-width: 100%;
 }
 .weathersummary {
-    background-color: #262d3d;
-    color: white;
-    padding: .5rem;
+  background-color: #262d3d;
+  color: white;
+  padding: 0.5rem;
 }
 #weathericon img {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 .join-container {
-    display: none;
-    background-color: #ebae32;
-    text-align: center;
-    padding: 2rem;
-   }
+  display: none;
+  background-color: #ebae32;
+  text-align: center;
+  padding: 2rem;
+}
 
-.joinBtn { 
-    padding: 1rem 2rem;
-    background-color : #262d3d;
-    font-size: 1.2rem;
-    color:white;
-   text-decoration: none;
-  }
- 
+.joinBtn {
+  padding: 1rem 2rem;
+  background-color: #262d3d;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
 
 .sponsor3 {
-    display:none;
+  display: none;
 }
 .headings {
-    color: rgb(207, 180, 167);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+  color: rgb(207, 180, 167);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .social-link {
-    display: flex;
+  display: flex;
 }
 .social-link img {
-    max-height: 50px;
-    max-width: 50px;
+  max-height: 50px;
+  max-width: 50px;
 }
 header {
-    background-color: #262d3d;
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 100%;
+  background-color: #262d3d;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
 }
+/* ***********************footer************************** */
 footer {
-    background-color: #262d3d;
-    text-align: center;
-    color: white;
+  background-color: #262d3d;
+  text-align: center;
+  color: white;
 }
-footer p, footer h6{
-    color: white;
+footer p,
+footer h6 {
+  color: white;
 }
 .copyright {
-    margin: 0 auto;
-    max-width: 50%;
+  margin: 0 auto;
+  max-width: 50%;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
-
-
-
-
 
 /*********** DISCOVER page **********/
-figure {
-    background-color:  white;
-    padding:  1rem;
-   
+.figure {
+  background-color: rgb(228, 239, 250);
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
-aside {
-    text-align: center;
-    padding: .5rem;
-    background-color:goldenrod;
+.aside {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #ebae32;
 }
 
-
+.cityData h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.cityData img {
+  max-width: 75%;
+  padding-left: 5rem;
+ align-items:center;
+}
+.cityData p{
+  /* margin-left: 2em; */
+  display: block;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  
+}
 
 /* ********join page*********** */
 label {
-    display: block;
-    margin-top: 1rem;
+  display: block;
+  margin-top: 1rem;
 }
 input {
-    padding: .5rem;
+  padding: 0.5rem;
 }
 legend {
-    text-align: center;
+  text-align: center;
 }
 textarea#description {
-    width: 90%;
+  width: 90%;
 }
 input:required {
-    border-left: 5px solid red;
+  border-left: 5px solid red;
 }
 input:required:valid {
-    border-left: 5px solid green;
+  border-left: 5px solid green;
 }
-input[type="submit"] { /* style for button */
-    text-align: center;
-    background-color: goldenrod;
-    border: none;
-    padding: .8rem;
-    font-size: 1.5rem;
-    margin-top: 1rem;
+input[type="submit"] {
+  
+  text-align: center;
+  background-color: #ebae32;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 .button-container {
-    text-align:center;
+  text-align: center;
 }
 .button-container label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-    
-   .jointitle {
-    text-align: center;
-   }
 
-   /*************** Directory Page ************/
-   .bizcardgrid figure {
-    border: 2px solid #262d3d;
-    text-align: center;
-    margin: 0.5rem;
-   }
-   .bizcardgrid img {
-    max-width: 300px;
-   }
-   .listDisplay img {
-    display: none;
+.jointitle {
+  text-align: center;
+}
+
+/*************** Directory Page ************/
+.bizcardgrid figure {
+  border: 2px solid #262d3d;
+  text-align: center;
+  margin: 0.5rem;
+}
+.bizcardgrid img {
+  max-width: 300px;
+}
+.listDisplay img {
+  display: none;
 }
 .listDisplay h3 {
   text-align: left;
 }
 .listDisplay p {
-    text-align: left;
+  text-align: left;
 }
 .buttonContainer {
-    text-align: center;
+  text-align: center;
 }
 /* new container */
 
 .news-container {
-    position: relative;
+  position: relative;
 }
 .news-container img {
   max-width: 30%;
-  max-height: 70%; 
+  max-height: 70%;
   float: right;
   margin: 1rem;
 }
 .news-container h2 {
-    font-size: 3rem;
-    text-align: center;
-    color:#262d3d
+  font-size: 3rem;
+  text-align: center;
+  color: #262d3d;
 }
- /*************** contact Page ************/
- .contact-main-grid div {
-    border: none;
- }
- .contactinfo li{
-    list-style: none;
+/*************** contact Page ************/
+.contact-main-grid div {
+  border: none;
+}
+.contactinfo li {
+  list-style: none;
+}
+.chambercard a {
+  display: block;
+  color: black;
+}
+.chambercontacts {
+  background:#ebae32
+}
+.chambercard img {
+  /* resize: 2rem; */
+  max-width: 200px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
+.contactinfo {
+  text-align: center;
   
- }
- .chambercard a {
-    display:block;
-    color: black;
-    }
-
-    .chambercard img {
-        size: 2rem;
-        max-width: 200px;
-        padding-top: 4px;
-        padding-bottom: 3px;}
-
- .contactinfo {
-    text-align: center;
- }
- textarea[id="comments"] {
-    width: 80%;
- }
- .contactform {
-    background-color: #262d3d;
 }
- .contactbox h2 {
-    color:white;
-    text-align: center;
-   /* position:absolute;*/
-   }
-   .contactbox label{
-    color:white;
-   }
+textarea[id="comments"] {
+  width: 80%;
+}
 
+
+.contactbox h2 {
+  color: black;
+  text-align: center;
  
-    .chambercard h2{
-    size: 2rem;
-    color: white;
- }
- .mapcontainer {
-position: relative;
- }
+}
+
+
+.contactbox label {
+  color: blackbody ;
+}
+
+
+.thankyou-container h2 {
+  color: red;
+  text-align: center;
+
+/* .mapcontainer {
+  position: relative;
+} */
+}

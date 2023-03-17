@@ -1,142 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="this is where you add a description">
-    <meta name="author" content="Debra Kite Jones">
- <link rel="stylesheet" href="styles/normalize.css">
-    <link href="styles/base.css" rel="stylesheet">
-    <link href="styles/medium.css" rel="stylesheet">
-    <link href="styles/large.css" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="this is where you add a description" >
+    <meta name="author" content="Debra Kite Jones" >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link href="styles/base.css" rel="stylesheet" >
+    <link href="styles/medium.css" rel="stylesheet" >
+    <link href="styles/large.css" rel="stylesheet" >
+    <link rel="icon" href="/favicon.ico" >
 
     <title>Hooper City Chamber of Commerce</title>
+  </head>
 
-</head>
-
-<body>
-    <div class="pancakeBanner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+  <body>
+    <div class="pancakeBanner">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
 
     <header>
-        <div class="logocontainer">
+      <div class="logocontainer">
+        <h1>Hooper City Chamber of Commerce</h1>
+        <img class="logo-img" src="images/logo2copy.webp" alt="Logo image" >
+      </div>
+      <div class="headings">
+        <p id="currentdate"></p>
 
-            <h1>Hooper City Chamber of Commerce</h1>
-            <img class="logo-img" src="images/logo2copy.webp" alt="Logo image">
+        <div class="social-link">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="images/facebook2.png" alt="facebook social icon" >
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+            <img src="images/twitter.png" alt="Linked In social" >
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="Linked In social" >
+          </a>
         </div>
-        <div class="headings">
-            <p id="currentdate"></p>
-            <div class="social-link">
-                <a href="https://www.facebook.com" target="_blank">
-                    <img src="images/facebook2.png" alt="facebook social icon">
-                </a>
-                <a href="https://www.linkedin.com" target="_blank">
-                    <img src="images/twitter.png" alt="Linked In social">
-                </a>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="Linked In social">
-                </a>
+      
+       
 
-            </div>
-        </div>
-
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover Hooper</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover Hooper</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="mainGrid">
+      <div class="herodiv">
+        <div class="cta-overlay">
+          <h2>Come Enjoy Hooper, Ut!</h2>
+          <button>Learn more</button>
+        </div>
+       
+        <picture>
+          <source srcset="images/988homelarge.jpg" media="(min-width: 980px)" >
+          <source
+            srcset="images/mediumhome600.jpg"
+            media="(min-width: 600px)">
+          <img src="images/basehome250.jpg" alt="Summer River on Salt Flats" >
+        </picture>
+      </div>
+      <div class="event-container">
+        <h2>Easter Egg Hunt</h2>
+        <h3>Saturday, April 8th, Hooper Park</h3>
+        <p>
+          Ages 2-5: 9-10 am<br >
+          Ages 6-10: 11-12:30 am<br >
+          Ages 11-15: 1-2:30 am<br >
+          Ages 16-17: 6-7:30 pm
+        </p>
+        <img src="images/easter.jpg" alt="Easter Egg Hunt" >
 
+        <ul></ul>
+      </div>
+      <div class="weathersummary">
+        <h3>Today's Weather</h3>
+        <p>
+          <span id="weathericon">weather</span>
 
-        <div class="herodiv">
-            <div class="cta-overlay">
-                <h2>Come Enjoy Hooper, Ut!</h2>
-                    <button>Learn more</button>
-            </div>
-            <!-- <img class="hero-img" src="images/saltflat.jpg" alt="salt flat sunset"> -->
-            <picture>
-                <source srcset="images/988homelarge.jpg" media="(min-width: 980px)">
-                <source srcset="images/mediumhome600.jpg" media="(min-width: 600px)">
-                <img src="images/basehome250.jpg" alt="Summer River on Salt Flats">
-            </picture>
-        </div>
-        <div class="event-container">
-            <h2>Easter Egg Hunt</h2>
-            <h3>Saturday, April 8th, Hooper Park</h3>
-            <p>Ages 2-5: 9-10 am<br>
-               Ages 6-10: 11-12:30 am<br>
-               Ages 11-15: 1-2:30 am<br>
-               Ages 16-17: 6-7:30 pm</p>
-            <img src="images/easter.jpg" alt="Easter Egg Hunt">
-           
-            <ul></ul>
-        </div>
-        <div class="weathersummary">
-            <h3>Today's Weather</h3>
-            <p><span id="weathericon"></span>
-               
-                <span id="temp"></span><br>
-                 <span id="conditions"></span><br>
-                Wind Chill: <span id="windchill"></span><br>
-               <span id="windspeed"></span><br>
-            </p>
-        </div>
-        <div class="news-container">
-            <h2>Himalayan Flavor is all about family and food</h2>
-            <img src="images/newsrelease.jpg" alt="Himalayan Chef">
-            <p>Years ago, Sanjay Sah and his brother Roshan Kumar would have to travel to Salt Lake to get the Indian food they wanted. That was quite the shopping trip from Hooper, so by 2017 they decided to open their own Indian grocer.
-                That led to them opening a restaurant called Himalayan Flavor a year later in Hooper, and the snowball kept rolling. In 2021 they opened a location in Logan. Now they run three restaurants, the third having opened in 2022 in Idaho Falls.
-                Things haven’t always been easy. After all, they opened the Hooper restaurant while the pandemic was still raging, but they’ve managed to get through the struggles and stay in business.
-                What’s more, they’re thankful for the residents who have supported their efforts. It’s a good clientele Sah has at the Logan eatery, he said, and his customer base continues to grow.
-                </p>
-               
-        </div>
-        <div class="ad-container">
-        </div>
-        <div class="join-container">
-            <img src="images/trading-post.jpg" alt="trading store">
+          <span id="temp"></span><br >
+          <span id="conditions"></span><br >
+          Wind Chill: <span id="windchill"></span><br >
+          <span id="windspeed"></span><br >
+        </p>
+      </div>
+      <div class="news-container">
+        <h2>Himalayan Flavor is all about family and food</h2>
+        <img src="images/newsrelease.jpg" alt="Himalayan Chef" >
+        <p>
+          Years ago, Sanjay Sah and his brother Roshan Kumar would have to
+          travel to Salt Lake to get the Indian food they wanted. That was quite
+          the shopping trip from Hooper, so by 2017 they decided to open their
+          own Indian grocer. That led to them opening a restaurant called
+          Himalayan Flavor a year later in Hooper, and the snowball kept
+          rolling. In 2021 they opened a location in Logan. Now they run three
+          restaurants, the third having opened in 2022 in Idaho Falls. Things
+          haven’t always been easy. After all, they opened the Hooper restaurant
+          while the pandemic was still raging, but they’ve managed to get
+          through the struggles and stay in business. What’s more, they’re
+          thankful for the residents who have supported their efforts. It’s a
+          good clientele Sah has at the Logan eatery, he said, and his customer
+          base continues to grow.
+        </p>
+      </div>
+      <div class="ad-container"></div>
+      <div class="join-container">
+        <img src="images/trading-post.jpg" alt="trading store" >
 
-            <h2>Join
-            Hooper City Chamber of Commerce</h2>
-            <a href="join.html" class="joinBtn">Join Now</a>
-        </div>
+        <h2>Join Hooper City Chamber of Commerce</h2>
+        <a href="join.html" class="joinBtn">Join Now</a>
+      </div>
     </main>
 
-
-
     <footer>
-        <div class="footerContainer">
-          <img class="footer-logo" src="images/logo2copy.webp" alt="Logo" />
-          <p class="address">
-            Hooper Chamber of Commerce<br />
-            5375 South 5100 West<br />
-            Hooper, Utah 84315<br />
-          </p>
-          <div class="contact">
-            <a href="mailto:email@chamber.com">Emailhooper@chamber.com</a>
-            <br />
-            <a href="tel:801-445-4522">(801)445-4522</a>
-          </div>
-          <div class="copyright">
-            <p>
-              &copy; <span id="currentyear"></span> Debra Jones WDD 230 Last
-              updated: <span id="thisupdate"></span>
-            </p>
-          </div>
+      <div class="footerContainer">
+        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo" >
+        <p class="address">
+          Hooper Chamber of Commerce<br >
+          5375 South 5100 West<br >
+          Hooper, Utah 84315<br >
+        </p>
+        <div class="contact">
+          <a href="mailto:email@chamber.com">Emailhooper@chamber.com</a>
+          <br >
+          <a href="tel:801-445-4522">(801)445-4522</a>
         </div>
-      </footer>
-    <!-- <script src="scripts/windchill.js"></script> -->
+        <div class="copyright">
+          <p>
+            &copy; <span id="currentyear"></span> Debra Jones WDD 230 Last
+            updated: <span id="thisupdate"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
     <script src="scripts/app.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/featuredAds.js"></script>
-</body>
-
+  </body>
 </html>
