@@ -17,7 +17,9 @@ console.log(jsObject);
   let image = document.createElement("img");
   let icon = jsObject.current.weather[0].icon;
   let source = ` https://openweathermap.org/img/wn/${icon}@2x.png`;
-  image.setAttribute("src", source)
+  let altText = jsObject.current.weather[0].description;
+  image.setAttribute("src", source);
+  image.setAttribute("alt",altText);
   span.append(image);
 
   //get current conditions

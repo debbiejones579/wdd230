@@ -17,7 +17,7 @@ body {
   margin: 0;
 }
 /* -----------------header------------------- */
-.pancakeBanner {
+.pancakeBanner, .banner {
   background-color: #ebae32;
   padding: 0.5rem;
   text-align: center;
@@ -135,9 +135,18 @@ main div {
   background-color: #262d3d;
   color: white;
   padding: 0.5rem;
+  text-align: center;
 }
 #weathericon img {
   max-width: 150px;
+
+}
+.weathersummary span {
+  display: block;
+  
+}
+.weathersummary #text {
+  display: none;
 }
 
 .join-container {
@@ -274,10 +283,12 @@ input[type="submit"] {
   border: 2px solid #262d3d;
   text-align: center;
   margin: 0.5rem;
+  padding:1rem;
 }
 .bizcardgrid img {
   max-width: 300px;
 }
+
 .listDisplay img {
   display: none;
 }
@@ -294,6 +305,9 @@ input[type="submit"] {
 
 .news-container {
   position: relative;
+}
+.news-container p {
+  padding: 1rem;
 }
 .news-container img {
   max-width: 30%;
@@ -335,18 +349,25 @@ textarea[id="comments"] {
   width: 80%;
 }
 
-
+.contact-main-grid
+  .contactbox {
+  border: none;
+}
 .contactbox h2 {
   color: black;
   text-align: center;
  
 }
 
-
-.contactbox label {
-  color: blackbody ;
+.contactform {
+  background-color:  rgb(238, 214, 203);
 }
+.contactform input[type="submit"] {
+  
+  color: white;
+  background-color:#262d3d;
 
+}
 
 .thankyou-container h2 {
   color: red;
