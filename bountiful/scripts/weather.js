@@ -38,13 +38,15 @@ console.log(jsObject);
 
 
 // 3 day forecast
-const forecastKey = "c1045d7a432e1868cd4c2d773de96df4";
-const exclude = "minutely, hourly";
-const forecastURL = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&exclude=${exclude}&appid=${forecastKey}`;
+const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${key}`;
+
 
 fetch(forecastURL)
 .then((response) => response.json())
 .then((forecastObject) => {
 console.log(forecastObject);
+
+const threeDay = forecastObject.list.filter((forecast) =>forecast.dt_txt.includes("18:00:00"));
+console.log (threeDay);
 }
 )

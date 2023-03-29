@@ -1,0 +1,21 @@
+@media only screen and (min-width: 60em) {
+    /**************** Hero Div *************/
+.herodiv img {
+    max-height: 800px;
+}
+/********* Local Summary ********/
+.localsummary picture {
+grid-column:1/3;
+}
+.weathersummary {
+    grid-column: 3/4;
+    grid-row: 3;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/******** Fruit Container **********/
+.fruit-container {
+    max-width: 70%;
+  }
+}
