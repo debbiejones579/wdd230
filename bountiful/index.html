@@ -12,90 +12,153 @@
     <link href="styles/large.css" rel="stylesheet" >
     <link rel="icon" href="/favicon.ico" >
 
-    <title>The Prickly Pair</title>
+<script src="scripts/weather.js" defer></script>
+<script src="scripts/app.js" defer></script>
+<!--<script src="scripts/visitlog.js" defer></script>
+<script src="scripts/drinksubmit.js" defer></script>
+-->
+
+
+    <title>The Pricklee Pair</title>
+
+    
+
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
-    <div class="pancakeBanner">
-      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-    </div>
+   
 
     <header>
-      <div class="logocontainer">
-        <h1>The Prickly Pair</h1>
-        <img class="logo-img" src="images/logo-600.jpg" alt="Logo image" >
-      </div>
-      <div class="headings">
-        <p id="currentdate"></p>
+      
+        <img class="logo-img" src="images/pear2.png" alt="Header-Logo image" >
+        <h1>The 
+          Pricklee
+           Pair</h1>
        
-  <nav>
+     <nav>
         <ul class="navigation">
           <li>
             <a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a>
           </li>
           <li><a href="index.html">Home</a></li>
-          <li><a href="fresh.html">Join</a></li>
-          <li><a href="about.html">Discover Hooper</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About</a></li>
      </ul>
       </nav>
     </header>
+
     <main class="mainGrid">
       <div class="herodiv">
-        <div class="cta-overlay">
-          <h2>Fresh Tropical Fruits Paired to make amzing drinks</h2>
-          <button>Special Order</button>
-        </div>
-       
-        <picture>
-          <source srcset="images/988homelarge.jpg" media="(min-width: 980px)" >
+      
+          <h2>We Specialize in Organic, Locally Grown Foods</h2>
+          
+   <picture>
+          <source srcset="images/fruitlogo980.png" media="(min-width: 600px)" >
           <source
-            srcset="images/mediumhome600.jpg"
-            media="(min-width: 600px)">
-          <img src="images/heart.png" alt="Summer River on Salt Flats" >
+            srcset="images/mediumfruitlogo600.png"
+            media="(min-width: 300px)">
+          <img src="images/fruitlogo250.png" alt="fruit with liquid" >
         </picture>
+        <a href="fresh.html" class="button">Specialize Your Drink Now!</a>
       </div>
-      <div class="event-container">
-        <h2>Grand Opening</h2>
-        <h3>Saturday, April 8th, Hooper Park</h3>
+ 
+      <div class="localsummary">              
+      <aside>
+       <h2>Come Visit Monterray</h2>
+        <p>Monterray is one of California's most attractive coastal cities and was formerly the state capital. Its downtown has more historic structures than any other city west of Santa Fe. Today, it is most renowned for its stunning coastline, and world-class aquarium, and was also made known because of the several John Steinbeck books set there. Monterey Park, dubbed in Asia as the "Chinese Beverly Hills," became renowned in the previous three decades as the first city and suburb in America to have an Asian majority.
+         </p>
+        </aside>
+      <aside>
+         <h2>La Jolla is Unique Adventure</h2>
+         <p>Although technically part of San Diego, the community of La Jolla feels like a destination unto itself: You could easily spend a few days in this enclave and get a full Southern California experience—along with a walkable village of hotels, shops, and cafés that possess a sophisticated vibe.
+         </p>
+      </aside>
+      <picture >
+        <source srcset="images/drink2.png" media="(min-width: 980px)" >
+        <source
+          srcset="images/mediumdrink2600.png"
+          media="(min-width: 600px)">
+        <img src="images/drink2300.png" alt="vegatables" class="circle-background" >
+      </picture>
+        <div class="weathersummary">
+          <div class="todayweathercontainer">
+            Today's Temp: <span id="temp"></span><br >
+            Humidity: <span id="humidity"></span><br >
+            <span id="weathericon"></span>
+            <span id="conditions"></span><br >
+        </div>
+        <div class="threedaycontainer">
+          <h3>3-day Forecast</h3>
+        
+         <div class="three-day">
+        
+          <figure>
+            <img src="" alt="">
+<h3>Mon</h3><figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="" alt="">
+<h3>Tue</h3><figcaption></figcaption>
+          </figure>
+          <figure>
+            <img src="" alt="">
+<h3>Weds</h3><figcaption></figcaption>
+          </figure>
+</div>
+         </div>
+        </div>
+      </div>
+      <div class="drinkoptions-container">
+        <h2>You can make your own!</h2>
+        <div class="fruit-container">
+
+          <img src="images/strawberry.png" alt="strawberry" >
+          <img src="images/leaf.png" alt="leaf" >
+          <img src="images/orange.png" alt="orange" >
+        </div>
+        <a href="fresh.html" class="button">Create Drink</a>
+      </div>
+      <div class="locations">
+        <h2>Visit us at either of our locations</h2>
         <p>
-         
-        </p>
-        <img src="images/heart 2.png" alt="Easter Egg Hunt" >
-
-        <ul></ul>
-      </div>
-      <div class="weathersummary">
-        <h3>Todays Special</h3>
+          367 Adams Dr<br>
+          Carlsbad, CA 90210
+        </p><br>
         <p>
-          <span id="weathericon"></span>
-
-          <span id="temp"></span><br >
-          <span id="conditions"></span><br >
-          Wind Chill: <span id="windchill"></span><br >
-          <span id="windspeed"></span><br >
+          73642 Airport Circle<br>
+          Carlsbad, CA 90214
         </p>
-      </div>
-      <div class="news-container">
-        <h2>Himalayan Flavor is all about family and food</h2>
-        <img src="images/newsrelease.jpg" alt="Himalayan Chef" >
-       
-      </div>
-      <div class="ad-container"></div>
-      <div class="join-container">
-        <img src="images/trading-post.jpg" alt="trading store" >
-
-        <h2>The Prickly Paired</h2>
-        <a href="join.html" class="joinBtn">Join Now</a>
       </div>
     </main>
 
     <footer>
-      <div class="footerContainer">
-        <img class="footer-logo" src="images/logo2copy.webp" alt="Logo" >
+      <img src="images/locallygrown75.png" alt="locally grown" >
+
+      <img src="images/organic75.png" alt="organic" >
+      <div class="addressContainer">
+       
+        <div>
+          <h3>Contact Us<h3>
+          prickleepear@email.com<br>
+          123-555-9090<br></p>
+        </div>
+       
+       
         <p class="address">
-          Hooper Chamber of Commerce<br >
-          5375 South 5100 West<br >
-          Hooper, Utah 84315<br >
+
+          367 Adams Dr<br >
+         Carlsbad, CA 90210<br >
+           </p>
+           <p class="address">
+             73642 Airport Circle<br >
+             Carlsbad, CA 90214<br ></p>
+           </div>
+
           <div class="social-link">
             <a href="https://www.facebook.com" target="_blank">
               <img src="images/facebook2.png" alt="facebook social icon" >
@@ -104,8 +167,16 @@
               <img src="images/twitter.png" alt="Linked In social" >
             </a>
             <a href="https://www.instagram.com" target="_blank">
-              <img src="images/instagram.png" alt="Linked In social" >
+            <img src="images/instagram.png" alt="Linked In social" >
             </a>
           </div>
-        </p>
+          <div class="copyright">
+           <p>&copy; <span id="currentyear">Debra Jones</span></p>
+           <p>Last updated: <span id="thisupdate"></span></p>
+          </div>
+    </footer>
+    </body>
+    </html>
+       
+
        

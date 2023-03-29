@@ -231,7 +231,7 @@ footer a {
  align-items:center;
 }
 .cityData p{
-  /* margin-left: 2em; */
+
   display: block;
   padding-left: 2rem;
   padding-right: 3rem;
@@ -335,7 +335,7 @@ input[type="submit"] {
   background:#ebae32
 }
 .chambercard img {
-  /* resize: 2rem; */
+ 
   max-width: 200px;
   padding-top: 4px;
   padding-bottom: 3px;
@@ -366,14 +366,9 @@ textarea[id="comments"] {
   
   color: white;
   background-color:#262d3d;
-
 }
 
 .thankyou-container h2 {
   color: red;
   text-align: center;
-
-/* .mapcontainer {
-  position: relative;
-} */
 }

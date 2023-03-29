@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="this is where you add a description" >
+    <meta name="author" content="Debra Kite Jones" >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link href="styles/base.css" rel="stylesheet" >
+    <link href="styles/medium.css" rel="stylesheet" >
+    <link href="styles/large.css" rel="stylesheet" >
+    <link rel="icon" href="/favicon.ico" >
+
+    <title>The Pricklee Pair</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+   
+
+    <header>
+      
+      <img class="logo-img" src="images/pear2.png" alt="Header-Logo image" >
+      <h1>The 
+        Pricklee
+         Pair</h1>
+     
+   <nav>
+      <ul class="navigation">
+        <li>
+          <a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="about.html">About</a></li>
+   </ul>
+    </nav>
+  </header>
+
+
+    <main class="freshGrid">
+      <div class="herodiv">
+      
+          
+           
+ <img src="images/strawberry.png" alt="strawberry" >
+            <img src="images/orange.png" alt="orange" >
+            <img src="images/leaf.png" alt="leaf" >
+           
+            <img src="images/kiwi.png" alt="kiwi" >
+            <img src="images/watermelon.png" alt="kiwi" >
+            <h2>Build Your Own Drink</h2>
+            <div class="drinkoptions-container">
+              <h3>Check out our drink options</h3> 
+      
+       
+        <picture>
+          <source srcset="images/greenjar.png" media="(max-width: 300px)" >
+          <source
+            srcset="images/greenjar.png"
+            media="(min-width: 600px)">
+          <img src="images/greenjar.png" alt="green jar" >
+        </picture>
+        <picture>
+          <source srcset="images/drink1.png" media="(max-width: 300px)" >
+          <source
+            srcset="images/drink1.png"
+            media="(max-width: 300px)">
+          <img src="images/drink 1.png" alt="red drink" >
+        </picture>
+        <picture>
+          <source srcset="images/circlegradient.png" media="(max-width: 300px)" >
+          <source
+            srcset="images/circlegradient.png"
+            media="(max-width: 300px)">
+          <img src="images//circlegradient.png" alt="blue circle" >
+        </picture>
+      </div>
+     
+      <!-- <picture>
+        <source srcset="images/drink2.png" media="(min-width: 980px)" >
+        <source
+          srcset="images/mediumdrink2600.png"
+          media="(min-width: 600px)">
+        <img src="images/drink2300.png" alt="vegatables" >
+      </picture> -->
+        <div class="weathersummary">
+          <span id="weathericon"></span>
+
+          <main class="drinkmain">
+            <div class="drinktitle">
+              <h2>Lets get started</h2>
+              <p>Make Your Own Drink</p>
+            </div>
+            <form class="joinformgrid" method="get" action="thankyou.html">
+              <fieldset class="contactbox">
+                <legend><h3>Contact Information</h3></legend>
+                <div>
+                  <label for="firstname">*First Name:</label>
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Jane"
+                    pattern="[a-zA-Z ]{4, }"
+                    required
+                    autofocus
+                  >
+                  <label for="email">*Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Jane@business.com"
+                    required
+
+                    <label for="phone">*Phone:</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="000-000-0000"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                    required
+
+                  <label for="titlename">Title:</label>
+                  <input
+                    type="text"
+                    id="titlename"
+                    name="titlename"
+                    placeholder="letters, hyphens and spaces only. minimum 7 characters"
+                    pattern="[a-zA-Z\s-]{7, }"
+                  >
+                  <label for="phone">*Phone:</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="000-000-0000"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                    required
+                  >
+                </div>
+              </fieldset>
+              <fieldset class="businessbox">
+                <legend><h3>Business Information</h3></legend>
+                <div>
+                  <label for="businessname">*Business Name:</label>
+                  <input
+                    type="text"
+                    id="businessname"
+                    name="businessname"
+                    placeholder="Janes Tires"
+                    required
+                  >
+                  <label for="website">Website:</label>
+                  <input
+                    type="url"
+                    id="website"
+                    name="website"
+                    placeholder="www.janestires.com"
+                  >
+                  <label for="description">Description Business:</label>
+                  <textarea id="description" name="description" rows="10"></textarea>
+                </div>
+              </fieldset>
+              <fieldset class="membershipbox">
+                <legend><h3>Membership Information</h3></legend>
+                <div>
+                  <label for="nonprofit">Non-Profit $0</label>
+                  <input
+                    type="radio"
+                    id="nonprofit"
+                    value="nonprofit"
+                    checked="checked"
+                    name="membership">
+                  <p>
+                    Any registered 501
+                  </p>
+                </div>
+                <div>
+                  <label for="bronze">Bronze $100</label>
+                  <input
+                    type="radio"
+                    id="bronze"
+                    value="bronze"
+                    checked="checked"
+                    name="membership"
+                  >
+                  <p>
+                    Any individual, 
+                  </p>
+                </div>
+                <div>
+                  <label for="silver">Silver $200</label>
+                  <input
+                    type="radio"
+                    id="silver"
+                    value="silver"
+                    checked="checked"
+                    name="membership">
+      
+                  <p>
+                    Any individual, sole propriet
+                  </p>
+                </div>
+                <div>
+                  <label for="gold">Gold $400</label>
+                  <input
+                    type="radio"
+                    id="gold"
+                    value="nonprofit"
+                    checked="checked"
+                    name="membership"
+                  >
+                  <p>
+                    Any registered 
+                  </p>
+                </div>
+              </fieldset>
+              <div class="button-container">
+                <input type="hidden" id="hiddendate" name="hiddendate" value="" >
+                <p>Be Part of our Team!</p>
+                <input type="submit" name="join" value="Join Now" >
+              </div>
+            </form>
+          </main>  
+<!-- /**********************footer******************/ -->
+<footer>
+  <img src="images/locallygrown75.png" alt="locally grown" >
+
+  <img src="images/organic75.png" alt="organic" >
+  <div class="addressContainer">
+   
+    <div>
+      <h3>Contact Us<h3>
+      prickleepear@email.com<br>
+      123-555-9090<br></p>
+    </div>
+   
+   
+    <p class="address">
+
+      367 Adams Dr<br >
+     Carlsbad, CA 90210<br >
+       </p>
+       <p class="address">
+         73642 Airport Circle<br >
+         Carlsbad, CA 90214<br ></p>
+       </div>
+
+      <div class="social-link">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebook2.png" alt="facebook social icon" >
+        </a>
+        <a href="https://www.linkedin.com" target="_blank">
+          <img src="images/twitter.png" alt="Linked In social" >
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+        <img src="images/instagram.png" alt="Linked In social" >
+        </a>
+      </div>
+      <div class="copyright">
+       <p>&copy; <span id="currentyear">Debra Jones</span></p>
+       <p>Last updated: <span id="thisupdate"></span></p>
+      </div>
+</footer>
+          </body>
+          </html>

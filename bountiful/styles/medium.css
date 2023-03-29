@@ -1,0 +1,81 @@
+@media only screen and (min-width: 40em) {
+
+      
+      /**********************header**************************/
+      
+    
+    
+      
+      .navigation {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        font-size: 2rem;
+      }
+      
+      .navigation li:first-child {
+        display: block;
+      }
+      
+     
+      
+      .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: right;
+        text-decoration: none;
+        color: #3a3838;
+        font-weight: 500;
+      }
+      .responsive li {
+        display: block;
+      }
+      .logo-img,
+      .footer-logo {
+        width: 75px;
+        height: 100px;
+      }
+      
+      
+      .navigation a.menu {
+        color: #5c5858;
+      }
+      .navigation a:active::before {
+        content: "🍅";
+      }
+      .navigation a:hover::before {
+        content: "";
+      }
+      .responsive li {
+        display: block;
+      }
+      h1 {
+        color: #5c5858;
+        text-align: left;
+      }
+      
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+    max-width: 50%;
+}
+
+.herodiv img {
+top: 0;
+left: 0;
+object-fit:cover;
+}
+.herodiv picture {
+    margin-bottom: 32rem;
+    overflow: hidden;
+}
+.herodiv {
+    margin-bottom: 32rem;
+}
+
+
+
+}

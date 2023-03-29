@@ -1,4 +1,198 @@
+p,
+input,
+a {
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: italic;
+  color: #747272;
+  text-align: center;
+}
+h2 {
+  padding-top: 2rem;
+}
+.logo-img h1 {
+  font-family: ;
+}
 body {
-    background-color: rgb(157, 210, 245)
-    
+  width: 100%;
+
+  background: linear-gradient(180deg, #f598a8,#f6edb2, #cfecd0 );
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #cbf9f9;
+}
+main {
+  padding: 5%;
+}
+
+/**********************header**************************/
+
+.navigation {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color:#5c5858;
+  font-weight: 700;
+}
+
+.responsive li {
+  display: block;
+  
+}
+.logo-img,
+.footer-logo {
+  width: 75px;
+  height: 100px;
+}
+
+.navigation a.menu {
+  color: #5c5858;
+}
+.navigation a:active::before {
+  content: "🍅";
+}
+.navigation a:hover::before {
+  content: "";
+}
+.responsive li {
+  display: block;
+}
+h1 {
+  color: #5c5858;
+  text-align: left;
+}
+
+.drinkoption-container {
+  display: grid;
+}
+
+.drinkoption-container h2 {
+  color: #5c5858;
+}
+.drinkoptions-container h3 {
+  color: #67a902;
+}
+.drinkoption-container img {
+  max-width: 10%;
+}
+.drinkoption-container a {
+  border: #5c5858;
+}
+
+.herodiv h2 {
+  padding-bottom: 10rem;
+}
+.herodiv img {
+ position: absolute;
+  top: 150px;
+  left: 20%;
+  z-index: -1;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  background-color: #2e742b;
+  padding: 1rem;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.circle-background {
+  background-color: rgb(218, 236, 218);
+  border-radius: 100%;
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  display: block;
+}
+
+/************** Weather Summary **************/
+.todayweathercontainer {
+  background-color: rgb(218, 236, 218);
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.threedaycontainer {
+  border: 2px solid gray;
+}
+.three-day {
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+}
+.three-day figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+/***************** Fruit Container *************/
+.fruit-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.fruit-container img {
+  max-width: 30%;
+}
+
+/************* 2 Locations ***********/
+.locations {
+  text-align: center;
+}
+/************** footer *************/
+
+footer {
+  min-height: 150px;
+  background-color: #cbf9f9;
+  /* -webkit-clip-path: polygon(57% 27%, 100% 14%, 100% 100%, 0 100%, 0 27%); */
+  /* clip-path: polygon(57% 27%, 100% 14%, 100% 100%, 0 100%, 0 27%); */
+}
+footer {
+  background-color: #cbf9f9;
+  text-align: center;
+  padding: 5%;
+}
+
+.social-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-link img {
+  max-height: 50px;
+  max-width: 50px;
+}
+.social-link a {
+  text-decoration: none;
 }
