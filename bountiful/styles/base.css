@@ -195,8 +195,7 @@ h1 {
 footer {
   min-height: 150px;
   background-color: #cbf9f9;
-  /* -webkit-clip-path: polygon(57% 27%, 100% 14%, 100% 100%, 0 100%, 0 27%); */
-  /* clip-path: polygon(57% 27%, 100% 14%, 100% 100%, 0 100%, 0 27%); */
+ 
 }
 footer {
   background-color: #cbf9f9;
@@ -206,7 +205,8 @@ footer {
 
 .social-link {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: ;
+  justify-content: right;
 }
 .social-link img {
   max-height: 50px;

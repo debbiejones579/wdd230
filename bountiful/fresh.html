@@ -11,14 +11,14 @@
     <link href="styles/medium.css" rel="stylesheet" >
     <link href="styles/large.css" rel="stylesheet" >
     <link rel="icon" href="/favicon.ico" >
+</head>
+    
+<title>The Pricklee Pair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Karla:wght@300;400;800&display=swap" rel="stylesheet">
 
-    <title>The Pricklee Pair</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@300&display=swap" rel="stylesheet">
+    
+   
 
   </head>
 
@@ -46,20 +46,27 @@
 
 
     <main class="freshGrid">
+      <div class="drinkoptions-container">
+        <h2>You can make your own!</h2>
+        <div class="fruit-container">
+
+          <img src="images/strawberry.png" alt="strawberry" >
+          <img src="images/leaf.png" alt="leaf" >
+          <img src="images/orange.png" alt="orange" >
+          <img class="hide" src="images/kiwi.png" alt="strawberry" >
+          <img  class="hide" src="images/carrot.png" alt="leaf" >
+          <img class="hide" src="images/watermelon.png" alt="orange" >
+        </div>
+        <a href="fresh.html" class="button">Create Drink</a>
+      </div>
+
+    
+
       <div class="herodiv">
       
           
            
- <img src="images/strawberry.png" alt="strawberry" >
-            <img src="images/orange.png" alt="orange" >
-            <img src="images/leaf.png" alt="leaf" >
-           
-            <img src="images/kiwi.png" alt="kiwi" >
-            <img src="images/watermelon.png" alt="kiwi" >
-            <h2>Build Your Own Drink</h2>
-            <div class="drinkoptions-container">
-              <h3>Check out our drink options</h3> 
-      
+
        
         <picture>
           <source srcset="images/greenjar.png" media="(max-width: 300px)" >
@@ -76,29 +83,17 @@
           <img src="images/drink 1.png" alt="red drink" >
         </picture>
         <picture>
-          <source srcset="images/circlegradient.png" media="(max-width: 300px)" >
-          <source
-            srcset="images/circlegradient.png"
-            media="(max-width: 300px)">
-          <img src="images//circlegradient.png" alt="blue circle" >
-        </picture>
+         
       </div>
      
-      <!-- <picture>
-        <source srcset="images/drink2.png" media="(min-width: 980px)" >
-        <source
-          srcset="images/mediumdrink2600.png"
-          media="(min-width: 600px)">
-        <img src="images/drink2300.png" alt="vegatables" >
-      </picture> -->
-        <div class="weathersummary">
-          <span id="weathericon"></span>
-
+     
+       
           <main class="drinkmain">
             <div class="drinktitle">
               <h2>Lets get started</h2>
               <p>Make Your Own Drink</p>
             </div>
+
             <form class="joinformgrid" method="get" action="thankyou.html">
               <fieldset class="contactbox">
                 <legend><h3>Contact Information</h3></legend>
@@ -167,7 +162,8 @@
                     name="website"
                     placeholder="www.janestires.com"
                   >
-                  <label for="description">Description Business:</label>
+                  <label for="description">Custom Requests:</label>
+
                   <textarea id="description" name="description" rows="10"></textarea>
                 </div>
               </fieldset>
@@ -234,9 +230,9 @@
           </main>  
 <!-- /**********************footer******************/ -->
 <footer>
-  <img src="images/locallygrown75.png" alt="locally grown" >
+  <img src="images/locallygrown.png" alt="locally grown" >
 
-  <img src="images/organic75.png" alt="organic" >
+  <img src="images/organic.png" alt="organic" >
   <div class="addressContainer">
    
     <div>
