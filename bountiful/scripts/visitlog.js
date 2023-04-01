@@ -11,3 +11,4 @@ visitMessage = 0;
 }
 console.log(visitMessage);
 document.querySelector(".visitLog").innerHTML = visitMessage;
+

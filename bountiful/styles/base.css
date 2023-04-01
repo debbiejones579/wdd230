@@ -1,4 +1,6 @@
-
+img {
+  max-width: 100%;
+}
 input,
 nav a {
   font-family: "Bebas Neue", sans-serif;
@@ -117,7 +119,10 @@ h1 {
 .drinkoption-container a {
   border: #5c5858;
 }
-
+.drinkcard {
+  border: 2px solid white;
+  text-align: center;
+}
 .herodiv h2 {
   padding-bottom: 10rem;
   color: rgb(118 6 6);
@@ -214,4 +219,19 @@ footer {
 }
 .social-link a {
   text-decoration: none;
+}
+
+
+
+
+/***************** FRESH PAGE *******************/
+
+label, input {
+  display: block;
+}
+label {
+  padding-top: 1rem;
+}
+.freshHeroImg {
+  max-width: 100%;
 }

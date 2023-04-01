@@ -1,4 +1,4 @@
-[
+{ "fruits": [
     {
       "genus": "Malus",
       "name": "Apple",
@@ -546,3 +546,4 @@
       }
     }
   ]
+}
