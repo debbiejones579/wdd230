@@ -15,8 +15,9 @@
 <script src="scripts/weather.js" defer></script>
 <script src="scripts/app.js" defer></script>
 <script src="scripts/drinklog.js" defer></script>
-<!--<script src="scripts/visitlog.js" defer></script>
--->
+<script src="scripts/lazyload.js" defer></script>
+
+
 
 
     <title>The Pricklee Pair</title>
@@ -35,7 +36,7 @@
 
     <header>
       
-        <img class="logo-img" src="images/pear2.png" alt="Header-Logo image" >
+        <img class="logo-img" src="images/pear2.png" alt="Prickleelogo" >
         <h1>The 
           Pricklee
            Pair</h1>
@@ -43,7 +44,7 @@
      <nav>
         <ul class="navigation">
           <li>
-            <a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a>
+            <a href="#" class="menu" id="menu" >&#9776; </a>
           </li>
           <li><a href="index.html">Home</a></li>
           <li><a href="fresh.html">Fresh</a></li>
@@ -105,16 +106,21 @@
         <h2>You can make your own!</h2>
         <div class="drinkcard">
 <h3>Drink Counter</h3>
-<p>You've Made <span id="drinkCounter"></span> Specialty Drinks!</h3>
+<p>You've Made <span id="drinkCounter"></span> Specialty Drinks!</p>
         </div>
         <div class="fruit-container">
 
-          <img src="images/strawberry.png" alt="strawberry" >
-          <img src="images/leaf.png" alt="leaf" >
-          <img src="images/orange.png" alt="orange" >
-          <img class="hide" src="images/kiwi.png" alt="strawberry" >
-          <img  class="hide" src="images/carrot.png" alt="leaf" >
-          <img class="hide" src="images/watermelon.png" alt="orange" >
+          <img src="images/placeholder.png" data-src="images/strawberry.png" alt="strawberry"
+          class="fruitImg">  
+          <img src="images/placeholder.png" data-src="images/leaf.png" alt="leaf"
+          class="fruitImg"> 
+          <img src="images/placeholder.png" data-src="images/orange.png" alt="orange"
+          class="fruitImg"> 
+          <img src="images/placeholder.png" data-src="images/kiwi.png" alt="kiwi"
+          class="fruitImg"> 
+          <img src="images/placeholder.png" data-src="images/carrot.png" alt="carrot"
+          class="fruitImg"> 
+         
         </div>
         <a href="fresh.html" class="button">Create Drink</a>
       </div>
@@ -141,7 +147,7 @@
      
       
          <div class="contact">
-          <h3>Contact Us<h3>
+          <h3>Contact Us</h3>
           <p>prickleepear@email.com<br>
           123-555-9090<br></p>
         </div>
@@ -169,7 +175,7 @@
               <img src="images/twitter.png" alt="Linked In social" >
             </a>
             <a href="https://www.instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="Linked In social" >
+            <img src="images/instagram.png" alt="Instagram In social" >
             </a>
           </div>
           <div class="copyright">

@@ -12,23 +12,25 @@
     <link href="styles/large.css" rel="stylesheet" >
     <link rel="icon" href="/favicon.ico" >
     <script src="scripts/drinksubmit.js" defer></script>
-</head>
+    <script src="scripts/app.js" defer></script>
+    <title>The Pricklee Pair</title>
     
-<title>The Pricklee Pair</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Karla:wght@300;400;800&display=swap" rel="stylesheet">
-
+    
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@300&display=swap" rel="stylesheet">
+  </head>
+    
     
    
 
-  </head>
+  
 
   <body>
    
 
     <header>
       
-      <img class="logo-img" src="images/pear2.png" alt="Header-Logo image" >
+      <img class="logo-img" src="images/pear2.png" alt="Pricklee logo" >
       <h1>The 
         Pricklee
          Pair</h1>
@@ -36,7 +38,7 @@
    <nav>
       <ul class="navigation">
         <li>
-          <a href="#" class="menu" id="menu" onclick="toggleMenu">&#9776; </a>
+          <a href="#" class="menu" id="menu" >&#9776; </a>
         </li>
         <li><a href="index.html">Home</a></li>
         <li><a href="fresh.html">Fresh</a></li>
@@ -56,9 +58,9 @@
           <img class="freshHeroImg" src="images/bluecircledrink.png" alt="green jar" >
         </picture>
       </div>
-      <form class="orderformgrid" method="get" action="">
+      <form class="orderformgrid" method="get">
               <fieldset class="contactbox">
-                <legend><h3>Personal Information</h3></legend>
+                <legend>Personal Information</legend>
                 <div>
                   <label for="firstname">*First Name:</label>
                   <input
@@ -91,10 +93,11 @@
               </fieldset>
 
               <fieldset class="drinkOptions">
-                <legend><h3>Drink Options</h3></legend>
+                <legend>Drink Options</legend>
                 <div>
-                  <label for="fruit1">Fruit Choice #1:</label>
+                  <label for="fruit1-select">Fruit Choice #1:</label>
                   <select 
+                  class="fruit1"
                     id="fruit1-select"
                     name="fruit1"
                   >
@@ -102,18 +105,19 @@
 
                  </select>
 
-       <label for="fruit2">Fruit Choice #2:</label>
+       <label for="fruit2-select">Fruit Choice #2:</label>
                   <select 
+                  class="fruit2"
                     id="fruit2-select"
                     name="fruit2"
                   >
                   <option value="">--Choose Fruit Option--</option>
-                  <span id="optionList"></span>
                  </select>
 
-                 <label for="fruit3">Fruit Choice #3:</label>
+                 <label for="fruit3-select">Fruit Choice #3:</label>
                  <select 
-                   id="frui32-select"
+                 class="fruit3"
+                   id="fruit3-select"
                    name="fruit3"
                  >
                  <option value="">--Choose Fruit Option--</option>
@@ -129,9 +133,10 @@
              
               <div class="button-container">
                 <input type="hidden" id="hiddendate" name="hiddendate" value="" >
-                <input id="orderDrink" class="button"  type="submit" name="join" value="Order Drink" >
+                <input id="orderDrink" class="orderDrink button"  type="submit" name="join" value="Order Drink" >
               </div>
             </form>
+            <div class="orderInfo"></div>
           </main>  
         
 <!-- /**********************footer******************/ -->
@@ -145,7 +150,7 @@
  
   
      <div class="contact">
-      <h3>Contact Us<h3>
+      <p>Contact Us
       <p>prickleepear@email.com<br>
       123-555-9090<br></p>
     </div>
@@ -173,7 +178,7 @@
           <img src="images/twitter.png" alt="Linked In social" >
         </a>
         <a href="https://www.instagram.com" target="_blank">
-        <img src="images/instagram.png" alt="Linked In social" >
+        <img src="images/instagram.png" alt="instagram In social" >
         </a>
       </div>
       <div class="copyright">

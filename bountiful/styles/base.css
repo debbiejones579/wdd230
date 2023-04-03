@@ -210,7 +210,7 @@ footer {
 
 .social-link {
   display: flex;
-  justify-content: ;
+  /* justify-content: ; */
   justify-content: right;
 }
 .social-link img {
@@ -235,3 +235,6 @@ label {
 .freshHeroImg {
   max-width: 100%;
 }
+
+/* *******************about ****************/
+

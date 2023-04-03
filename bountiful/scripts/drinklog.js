@@ -1,5 +1,5 @@
 let span = document.querySelector("#drinkCounter");
 
-let count = 0;
+let count = localStorage.getItem('drinkCount');
 
 span.append(count);
